@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            // Stabilire una variabile che sara' un array di stringhe
             string[] myFood = { "Pizza", "Carbonara", "Bolognese", "Amatriciana", "Gateau di patate" };
             int totalElement = myFood.Length;
             Console.WriteLine($"La mia classifica è composta da {totalElement} elementi");
